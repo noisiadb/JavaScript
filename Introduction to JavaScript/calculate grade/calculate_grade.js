@@ -1,0 +1,10 @@
+var cadena = prompt("Escribe una cadena de texto")
+cadenaComoArray = cadena.split(" ")
+console.log("Número de palabras: " + cadenaComoArray.length)
+console.log("Primera palabra: " + cadenaComoArray[0])
+console.log("Última palabra: " +
+    cadenaComoArray[cadenaComoArray.length - 1])
+cadenaComoArray.sort()
+console.log("Palabras ordenadas de la a la z: " + cadenaComoArray)
+cadenaComoArray.reverse()
+console.log("Palabras ordenadas de la z la a: " + cadenaComoArray)
